@@ -17,7 +17,7 @@ Welcome to the Simple C# Application! This project is a beginner-friendly introd
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/yourusername/simple-csharp-app.git
+    git clone https://github.com/saveen99/CsharpCalc.git
     cd simple-csharp-app
     ```
 
