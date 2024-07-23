@@ -339,7 +339,7 @@
             Controls.Add(textBox1);
             Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "Calculator";
-            Text = "Cal S99";
+            Text = "Calculator";
             Load += Calculator_Load;
             ResumeLayout(false);
             PerformLayout();
