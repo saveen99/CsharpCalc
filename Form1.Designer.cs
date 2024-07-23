@@ -46,6 +46,7 @@
             button14 = new Button();
             button15 = new Button();
             button16 = new Button();
+            buttonReset = new Button();
             SuspendLayout();
             // 
             // textBox1
@@ -298,12 +299,27 @@
             button16.Text = "+";
             button16.UseVisualStyleBackColor = false;
             // 
+            // buttonReset
+            // 
+            buttonReset.BackColor = Color.OrangeRed;
+            buttonReset.FlatStyle = FlatStyle.Flat;
+            buttonReset.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            buttonReset.ForeColor = Color.White;
+            buttonReset.Location = new Point(55, 279);
+            buttonReset.Name = "buttonReset";
+            buttonReset.Size = new Size(128, 34);
+            buttonReset.TabIndex = 17;
+            buttonReset.Text = "Reset";
+            buttonReset.UseVisualStyleBackColor = false;
+            buttonReset.Click += buttonReset_Click;
+            // 
             // Calculator
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
-            ClientSize = new Size(241, 290);
+            ClientSize = new Size(241, 325);
+            Controls.Add(buttonReset);
             Controls.Add(button13);
             Controls.Add(button14);
             Controls.Add(button15);
@@ -348,5 +364,6 @@
         private Button button14;
         private Button button15;
         private Button button16;
+        private Button buttonReset;
     }
 }
